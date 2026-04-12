@@ -80,7 +80,7 @@
   
 ;; Listener Integer PositiveInteger PositiveInteger -> [Listof ProxyPlayer]
 ;; Attempts to collect up to `max-players` proxy players over a maximum time span `time-limit-s` in seconds
-;; INTEPRETATION: `start-time-s` is expressed in UNIX epoch seconds
+;; INTERPRETATION: `start-time-s` is expressed in UNIX epoch seconds
 ;; TODO: Look into futures rather than manually counting time
 (define (collect-players listener start-time-s time-limit-s max-players [players '()])
   (define listening-complete? (or (= (length players) max-players)

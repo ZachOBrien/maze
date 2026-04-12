@@ -36,7 +36,7 @@
 (define MAX-ROUNDS 1000)  ; Maximum number of rounds the game may be played for
 
 ;; [Listof Player] RefereeState [Listof Observer] -> [Listof AvatarColor] [Listof AvatarColor] HashTable
-;; Runs a game of Labrynth, finding winners and cheaters
+;; Runs a game of Labyrinth, finding winners and cheaters
 (define (run-game init-players state0 observers)
   (begin
     (notify-observers state0 observers)

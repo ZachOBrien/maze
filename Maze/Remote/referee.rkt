@@ -78,7 +78,7 @@
       (define rpc-args (second msg))
       (if (validator rpc-args)
           (send tcp-conn send-json (handler rpc-args player))
-          (error (string-append "receieved bad call from ref: " (jsexpr->string msg))))
+          (error (string-append "received bad call from ref: " (jsexpr->string msg))))
       (msg-handling-loop)) ))
 
 
@@ -100,7 +100,7 @@
   (send player win win-boolean)
   "void")
 
-;; TakeTurnRequestMsg Player -> JsonChoce
+;; TakeTurnRequestMsg Player -> JsonChoice
 ;; Handle a take-turn request
 (define (take-turn-handler take-turn-request-msg player)
   (define player-goal (send player get-goal))

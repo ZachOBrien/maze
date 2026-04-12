@@ -45,7 +45,7 @@
   [player-can-reach-pos? (-> gamestate? grid-posn? boolean?)]
   ; Check if the current player is currently placed on their treasure tile
   [player-on-treasure? (-> gamestate? boolean?)]
-  ; Check if the curent player is currently placed on their home tile
+  ; Check if the current player is currently placed on their home tile
   [player-on-home? (-> gamestate? boolean?)]
   ; Remove the currently active player from the game and ends their turn
   [remove-player (-> gamestate? gamestate?)]
