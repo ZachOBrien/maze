@@ -1,4 +1,4 @@
-FROM racket/racket:8.6-full
+FROM racket/racket:9.1-full
 
 RUN mkdir Maze/
 

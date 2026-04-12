@@ -14,8 +14,8 @@
 
 <p>
   <a href="https://racket-lang.org">
-    <img src="https://img.shields.io/badge/racket-8.6-blue"
-         alt="Racket 8.6">
+    <img src="https://img.shields.io/badge/racket-9.1-blue"
+         alt="Racket 9.1">
 </p>
 
 <a href="https://en.wikipedia.org/wiki/Labyrinth_(board_game)"><img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Amazing_Labyrinth_game_box.jpg" alt="Labyrinth Box" width="300"></a>
@@ -64,7 +64,7 @@ This repository implements a client-server architecture and basic GUI for config
 
 ## Try it Out
 
-Install Racket version 8.6
+Install Racket version 9.1
 
 Install `raco`
 
