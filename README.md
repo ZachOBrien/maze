@@ -66,6 +66,12 @@ Install Racket version 9.1
 
 Install `raco`
 
+### View Sample Playthrough
+
+```
+cd Maze && racket run-gui.rkt
+```
+
 ### Run Integration Tests
 
 Run all integration tests:
