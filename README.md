@@ -2,23 +2,21 @@
   :gem: MAZE :gem:
 </h1>
 
-<h4 align="center">An implementation of <a href="https://en.wikipedia.org/wiki/Labyrinth_(board_game)">Labyrinth</a>.</h4>
+<h4 align="center">
+  An implementation of <a href="https://en.wikipedia.org/wiki/Labyrinth_(board_game)">Labyrinth</a>
+</h4>
+
+<h4 align="center">
+  <p>
+    <a href="https://racket-lang.org">
+      <img src="https://img.shields.io/badge/racket-9.1-blue"
+          alt="Racket 9.1">
+  </p>
+</h4>
 
 <p align="center">
-  <a href="#about">About</a> •
-  <a href="#directory-structure">Directory Structure</a> •
-  <a href="#try-it-out">Try it Out</a>
+  <a href="https://en.wikipedia.org/wiki/Labyrinth_(board_game)"><img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Amazing_Labyrinth_game_box.jpg" alt="Labyrinth Box" width="300"></a>
 </p>
-
-## About
-
-<p>
-  <a href="https://racket-lang.org">
-    <img src="https://img.shields.io/badge/racket-9.1-blue"
-         alt="Racket 9.1">
-</p>
-
-<a href="https://en.wikipedia.org/wiki/Labyrinth_(board_game)"><img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Amazing_Labyrinth_game_box.jpg" alt="Labyrinth Box" width="300"></a>
 
 Maze is an implementation of the board game "Labyrinth". The real game involves players navigating a maze, represented as a physical grid board of pathways, with the objective of collecting treasure.
 
