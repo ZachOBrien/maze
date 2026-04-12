@@ -81,7 +81,7 @@ Run all integration tests:
 Run all unit tests:
 
 ```
-./xtest
+raco test Maze
 ```
 
 Run unit tests for a specific module
